@@ -7,11 +7,10 @@ namespace RecursionPrac
         static void Main(string[] args)
         {
             Fibonacei fibo = new Fibonacei();
-            Console.WriteLine(fibo.Get(1));
-            Console.WriteLine(fibo.Get(2));
-            Console.WriteLine(fibo.Get(3));
-            Console.WriteLine(fibo.Get(4));
-            Console.WriteLine(fibo.Get(5));
+            //Console.WriteLine(fibo.Get(50));
+
+            FibonaceiAdv fiboadv = new FibonaceiAdv();
+            Console.WriteLine(fiboadv.Get(5000));
             
         }
     }
